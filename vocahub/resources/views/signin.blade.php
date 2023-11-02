@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="{{ asset('css/mypage/signin.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/signin.css') }}">
     <title>Signin</title>
 </head>
 <body>
@@ -22,7 +22,7 @@
             </div>
             <input type="submit" value="로그인">
         </form>
-        <p class="signup-link" onclick="location.href='/signup'">아직 계정이 없으신가요?</p>
+        <p class="signinlink">아직 계정이 없으신가요? <br> 지금<a href="/signup">회원가입</a>하세요!</p>
     </div>
     @include('mainpage.footer')
     @if (session('message'))
