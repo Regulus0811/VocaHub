@@ -11,18 +11,19 @@
             <div class="container-fluid">
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <img class="logo" src="{{asset('image/music.svg')}}" alt="logo">
-        <h3 class="title">VocaHub</h3>
+                    <a class="navbar-brand" href="/">VocaHub</a>
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item me-3">
                             <a class="nav-link active" aria-current="page" href="/">홈페이지 소개</a>
                         </li>
                         <li class="nav-item dropdown me-3">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                보컬로이드
+                                정보
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="/">정보</a></li>
-                                <li><a class="dropdown-item" href="/">리뷰</a></li>
+                                <li><a class="dropdown-item" href="/">굿즈</a></li>
+                                <li><a class="dropdown-item" href="/">보카로P</a></li>
+                                <li><a class="dropdown-item" href="/">악곡</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown me-3">
