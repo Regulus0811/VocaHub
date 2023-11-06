@@ -15,6 +15,7 @@
         "vite": "^4.0.0"
     },
     "dependencies": {
+        "@oclif/config": "^1.18.17",
         "heroku": "^8.7.0"
     }
 }
