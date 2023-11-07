@@ -1,5 +1,5 @@
 <header class="header-container">
-    <link rel="stylesheet" href="{{ asset('css/header.css') }}">
+    <link rel="stylesheet" href="{{ asset('resources/css/header.css') }}">
     <link
         href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
         rel="stylesheet"
@@ -7,6 +7,17 @@
         crossorigin="anonymous"
     >
     <style>
+        @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
+
+header {
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+}
+
         .navbar {
             background-color: #39c5bb !important;
         }
@@ -44,10 +55,18 @@
                         </a>
                     </li>
                     <li class="nav-item dropdown me-3">
-                        <a class="nav-link active" aria-current="page" href="/signin">
+                        @guest
+                        <a class="nav-link active" aria-current="page" href="/login">
                             로그인
                         </a>
+                        @endguest
+                        @auth
+                        <a class="nav-link active" aria-current="page" href="/logout">
+                            로그아웃
+                        </a>
+                        @endauth
                     </li>
+
                 </ul>
 
                 <form class="d-flex" role="search">
@@ -63,3 +82,5 @@
 {{-- dropdown 의존성을 위한 jquery와 popper.js 주입 --}}
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
