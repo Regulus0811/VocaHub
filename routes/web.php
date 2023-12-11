@@ -18,6 +18,18 @@ Route::get('/', function () {
     return view('main');
 });
 
+Route::get('/vocalegend', function () {
+    return view('vocalegend');
+});
+
+Route::get('/vocasong', function () {
+    return view('vocasong');
+});
+
+Route::get('/wip', function () {
+    return view('wip');
+});
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
