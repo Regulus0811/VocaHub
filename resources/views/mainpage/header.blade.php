@@ -54,9 +54,9 @@ header {
                             정보
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="/">굿즈</a></li>
-                            <li><a class="dropdown-item" href="/">보카로P</a></li>
-                            <li><a class="dropdown-item" href="/">악곡</a></li>
+                            <li><a class="dropdown-item" href="/wip">굿즈</a></li>
+                            <li><a class="dropdown-item" href="/vocalegend">보컬로이드 신화입성</a></li>
+                            <li><a class="dropdown-item" href="/vocasong">악곡</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown me-3">

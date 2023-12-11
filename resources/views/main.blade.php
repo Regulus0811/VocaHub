@@ -42,9 +42,7 @@
                     </p>
                 </div>
                 <div class="col-6">
-                    <img src="{{asset('https://pjsekai.sega.jp/3rd/assets/webp/common/gallery/illustration/img_illust_30.webp')}}"
-                         alt="main_image"
-                         class="img-fluid rounded-3">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/b2Di3kFGAUM?si=d0c6fnWLzBXQ7EeF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
             </div>
         </div>

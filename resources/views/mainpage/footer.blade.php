@@ -19,9 +19,7 @@ body {
     min-height: 100vh;
 }
 
-.footer-container {
-    margin-top: auto;
-}
+
 
 .social-icons,
 .footer-title {
